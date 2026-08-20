@@ -2224,7 +2224,7 @@ var import_picocolors = __toESM(require_picocolors(), 1);
 // package.json
 var package_default = {
   name: "claude-code-time",
-  version: "0.4.0",
+  version: "0.5.0",
   description: "Time analytics for local coding-agent sessions.",
   type: "module",
   bin: {
@@ -2282,16 +2282,16 @@ var package_default = {
     url: "git+https://github.com/mohhh-ok/coding-session-time.git"
   },
   engines: {
-    node: ">=18"
+    node: ">=22.12.0"
   },
   dependencies: {
-    commander: "^14.0.3",
+    commander: "^15.0.0",
     picocolors: "^1.1.1"
   },
   devDependencies: {
     "@types/bun": "^1.3.13",
-    "release-it": "^20.0.1",
-    typescript: "^6.0.3"
+    "release-it": "^21.0.2",
+    typescript: "^7.0.2"
   }
 };
 
